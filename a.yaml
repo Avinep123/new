@@ -3,8 +3,8 @@
 swagger: '2.0'
 info:
   version: "0.0.1"
-  title: XSS Vulnerable
-  description: <img src=x onerror="confirm('1')">,<img src=y onerror="prompt('1')">
+  title: <SVG/Onload=prompt(2)>
+  description: <img src=y onerror="prompt('1')">
 paths:
   /:
     get:
