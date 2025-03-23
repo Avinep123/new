@@ -12,5 +12,16 @@
   "externalDocs": {
     "description": "Help",
     "url": "https://gist.githubusercontent.com/zenelite123/61360869361ff88d7ce3aec863be7785/raw/227f1d30bb292b1d981b30277236c52acb98ae88/test.yaml"
-  }
+  },
+  "url": "https://xss.smarpo.com/test.yaml",
+  "urls": [
+    {
+      "url": "https://xss.smarpo.com/test.yaml",
+      "name": "Foo"
+    },
+    {
+      "url": "https://xss.smarpo.com/test2.yaml",
+      "name": "Foo2"
+    }
+  ]
 }
