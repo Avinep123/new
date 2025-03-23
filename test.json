@@ -1,0 +1,33 @@
+openapi: 3.0.0
+info:
+  title: Test API
+  description: This is a sample API definition.
+  version: "1.0.0"
+servers:
+  - url: https://gist.githubusercontent.com/zenelite123/61360869361ff88d7ce3aec863be7785/raw/227f1d30bb292b1d981b30277236c52acb98ae88/test.yaml
+    description: Test YAML Endpoint
+paths:
+  /test:
+    get:
+      summary: Get test data
+      description: Returns test data from the YAML file.
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Success"
+                  data:
+                    type: object
+                    description: Test data from the YAML file.
+                    additionalProperties:
+                      type: string
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
