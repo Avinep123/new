@@ -1,8 +1,8 @@
 {
-    "url": "https://raw.githubusercontent.com/Avinep123/new/refs/heads/main/a.yaml",
+    "url": "https://raw.githubusercontent.com/Avinep123/new/refs/heads/main/b.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/Avinep123/new/refs/heads/main/a.yaml",
+            "url": "https://raw.githubusercontent.com/Avinep123/new/refs/heads/main/b.yaml",
             "name": "Test"
         }
     ]
